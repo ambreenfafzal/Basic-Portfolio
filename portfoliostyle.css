@@ -1,10 +1,21 @@
  body {
      margin: 0;
      padding: 0;
+     margin-bottom: 100px;
  }
  
- /* this is the main header   */
-  header {
+
+ .nav-link{
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#666666;
+}
+.nav-link:hover {
+    color: #4aaaa5;
+}
+
+header {
     background-color: #ffffff;
     width: 100%;
     /* position: fixed; */
@@ -13,231 +24,76 @@
     display: block; 
     height: 100px;
     border-bottom: #cccccc 1px solid;
+    text-align: right;
     
     }
-
-    /* this is the header with my name  */
-header h1 {
-    color:#ffffff;
-    background-color:#4aaaa5;
-    height: 100px;
-    /* margin: auto; */
-    width: 300px;
-    /* box-sizing: border-box; */
-    line-height: 2em;
-    padding: 0px 20px;  
-    font-size: 2em;
-    float: left;
-    /* margin: 0px 180px; */
-    margin: 0px auto 0px 480px;
-    font-style: normal;
-    font-family: 'Playfair Display', serif;
-    font-size: 2em;
-}
-
-/* /* this is the smaller header with the three buttons  */
-header div {
-    background-color:#ffffff;
-    /* width: 960px; */
-    /* margin: 0 auto; */
-    height: 100px;
-    border-bottom: #cccccc 1px solid;
-   
-
-}
-
-nav {
-    float: right;
-   line-height: 5em;
-   margin:0px 500px 0px 0px;
-
-}
-
-
-.about {
-    color: #777777;
-    margin: 0px 0px 0px ;
-    border-right: solid 2px rgba(50, 0 , 0, .05);
-    text-decoration: none;
-    padding: 0px 25px;
-}
-.portfolio {
-    color: #777777;
-    margin: 0 20px; 
-    border-right: solid 2px rgba(50, 0 , 0, .05);
-    padding: 0px 25px;
-    text-decoration: none; 
-}
-.contact {
-    color: #777777;
-    /* margin: 0px 0px 0 20px; */
-    text-decoration: none;
-    /* padding: 0px 25px; */
-}
-
+    h3 {
     
-  section {
-      width: 960px;
-     margin: 10px auto;
-     background-color:#ffff;
-     border-style: solid;
-     border-width: 1px;
-     border-color: #cccccc;
-     height: 600px;
+      padding: 20px;
+      font-family: 'Quattrocento', serif;
+font-family: 'Petit Formal Script', cursive;
+padding-top: 25px;
+padding-right: 40px;
 
-      /* justify-content: center;
-      display: flex;
-      flex-wrap: wrap; */
-  }
-      .clearfix {
-        overflow: auto;
-      }
-    
+    }
+
+    h3:hover {
+        color: #4aaaa5;
+        font-weight: bold;
+    }
+
+    header h3 {
+        font-size: 30px;
         
-    
-        section div {
-            width: 200px;
-            height: 150px;
-            float: left;
-            /* margin: 60px 0px 10px 10px; */
-        }
+    }
+    .card {
+        float: left;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-top:30px;
 
-        h2 {
-            
-            color: #4aaaa5;
-            border-bottom: 2px solid #cccccc;
-            padding: 10px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 30px;
-            margin: 20px  20px;
-            text-align: left;
-        
-            }
-    
+    }
 
-        .firstpicture {
-            background-image: url("Zebra.jpg");
+    h5 {
+        border-bottom: 1px solid lightslategrey;
+    }
+
+        #firstpicture {
+          
             background-size: cover;
             text-align: center;
             color: white;
-            margin: 10px 10px 10px 20px;
+            /* margin: 10px 10px 10px 20px; */
                  
             }
-
-            .firstpicture h4 {
-                background-color:#4aaaa5;
-                width: 100%;
-                margin: 95px auto;
-                height: 50px;
-                text-align: center;
-                line-height: 3em;
-                font-style: normal;
-                font-family: 'Playfair Display', serif;
-                font-size: .75em;
-                font-weight: normal;
-                
-            }
-
-        .secondpicture {
-            background-image: url("Acrylics.jpg");
-            background-size: cover;
-            text-align: center;
-            color: white;
-            margin: 10px auto 10px 20px;
-        }
-
-        .secondpicture h4 {
-            background-color:#4aaaa5;
-            width: 100%;
-            margin: 95px auto;
-            height: 50px;
-            text-align: center;
-            line-height: 3em;
-            font-style: normal;
-            font-family: 'Playfair Display', serif;
-            font-size: .75em;
-            font-weight: normal;
-        }
+.col {
+    margin-bottom: 100px;
+}
             
-    
-        .thirdpicture {
-            background-image: url("BeardedLizard.jpg");
-            background-size: cover;
-            text-align: center;
-            color: white;
-            margin: 10px 10px 10px 20px;
-        }
-
-        .thirdpicture h4 {
-            background-color:#4aaaa5;
-            width: 100%;
-            margin: 95px auto;
-            height: 50px;
-            text-align: center;
-            line-height: 3em;
-            font-style: normal;
-            font-family: 'Playfair Display', serif;
-            font-size: .75em;
-            font-weight: normal;
-        }
-        .fourthpicture {
-            background-image: url("WaterColor.jpg");
-            background-size: cover;
-            text-align: center;
-            color: white;
-            margin: 10px auto 10px 20px;
-        }
-
-        .fourthpicture h4 {
-            background-color:#4aaaa5;
-            width: 100%;
-            margin: 95px auto;
-            height: 50px;
-            text-align: center;
-            line-height: 3em;
-            font-style: normal;
-            font-family: 'Playfair Display', serif;
-            font-size: .75em;
-            font-weight: normal;
-        }
-        .fifthpicture {
-            background-image: url("Dog.jpg");
-            background-size: cover;
-            text-align: center;
-            color: white;
-            margin: 10px auto 10px 20px;
             
-        }
-
-        .fifthpicture h4 {
-            background-color:#4aaaa5;
-            width: 100%;
-            margin: 95px auto;
-            height: 50px;
-            text-align: center;
-            line-height: 3em;
-            font-style: normal;
-            font-family: 'Playfair Display', serif;
-            font-size: .75em;
-            font-weight: normal;
-            
-
-        }
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
 
 
     
     
     footer {
+        
         background-color:#666;
         border-top: 8px solid #4aaaa5;
         height: 100px;
         color: #f1f3ed;
         width: 100%;
-        position: fixed;
+     position: fixed;
         left: 0px;
         bottom:0px;
+        margin-bottom: 0px;
         text-align: center;
         line-height: 5em;
+        margin-top: 50px;
        
         }
 

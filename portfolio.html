@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="portfoliostyle.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/logotest4.png" sizes="150x150">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script|Quattrocento:700" rel="stylesheet">
     <title> Ambreen Afzal Portfolio</title>
 </head>
 
@@ -16,38 +21,98 @@
     <body background="assets/images/full-bloom.png"></body>
 
 <body>
-    <header>
-        <div>
-            <h1>Ambreen Afzal</h1>
-            <nav>
-                <a class="about" href="index.html">About</a>
-                <a class="portfolio" href="portfolio.html">Portfolio</a>
-                <a class="contact" href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+        <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+               
+              </ul>
+              <header>
+                    <div >
+                          <h3>  Ambreen Afzal </h3>
+                    </div>
+            
+                </header>
     <!-- <section> <img src="assets/images/Zebra.jpg"/> </section> -->
-    <section>
-        <h2> Portfolio</h2>
-        <div class="firstpicture">
-            <h4>Oil Paintings</h4>
-        </div>
-        <div class="secondpicture">
-            <h4>
-                Water Color Paintings
-            </h4>
-        </div>
-        <div class="thirdpicture">
-            <h4>Acrylic Paintings</h4>
-        </div>
-        <div class="fourthpicture">
-            <h4>Reptile Paitings</h4>
-        </div>
-        <div class="fifthpicture">
-            <h4>Animal Portraits</h4>
+    <div class="container">
+        <div class="row">
+                <div class="col">
+                        <div class="card" style="width: 18rem;">
+                                <img src="Zebra.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" >Website</h5>
+                                  <p class="card-text">Sample text</p>
+                                
+                                </div>
+                              </div>
+            
+                              <div class="card" style="width: 18rem;">
+                                    <img src="Acrylics.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Github</h5>
+                                      <p class="card-text">This is a text.</p>
+                                   
+                                    </div>
+                                  </div>
+            
         </div>
 
-    </section>
+        <div class="row">
+            <div class="col">
+                    <div class="card" style="width: 18rem;">
+                            <img src="WaterColor.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Unit Testing</h5>
+                              <p class="card-text">Quality Assurance</p>
+                             
+                            </div>
+                          </div>
+
+                          <div class="card" style="width: 18rem;">
+                                <img src="BeardedLizard.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Node.js</h5>
+                                  <p class="card-text">This is for display only.</p>
+                                </div>
+                              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                    <div class="card" style="width: 18rem;">
+                            <img src="Dog.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">JavaScript</h5>
+                              <p class="card-text">Click here</p>
+                            </div>
+                          </div>
+
+                          <div class="card" style="width: 18rem;">
+                                <img src="DSC_7114-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">JSON</h5>
+                                  <p class="card-text">Coming soon</p>
+                
+                                </div>
+                              </div>
+            </div>
+        </div>
+        
+                    
+    
+                               
+        </div>
+            
+
+    </div>
+  
 
 
     <footer>
